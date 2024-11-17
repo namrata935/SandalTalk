@@ -2,10 +2,10 @@
 Submission for IIITB Hackathon
 
 Overview
-This project processes audio files by transcribing them into kannada text and the transcriptions and the corresponding english translations are input in a csv file called "transcriptions.csv" . The user is prompet to upload an audio file and to select a language of the audio(english/kannada). Our model then uses semantic search to find the answer in the dataset and returns the refined answer (using T5 AI model). 
+This project processes audio files by transcribing them into kannada text and the transcriptions and the corresponding english translations are input in a csv file called "cleaned_transcriptions_dataset.csv" . The user is prompted to upload an audio file and to select a language of the audio(english/kannada). Our model then uses semantic search to find the answer in the dataset and returns the refined answer (using T5 AI model). 
 
 Dataset
-The dataset is stored in the data folder in this repository at "transcriptions.csv".
+The dataset is stored in the data folder in this repository at "cleaned_transcriptions_dataset.csv".
 It contains transcription data and their corresponding translations for matching with the user-provided audio files.
 
 Setup Instructions
@@ -26,14 +26,17 @@ deep_translator
 pydub
 
 Running the Project
-Open the Notebook:
+- Open the Notebook named "sandal_mainpgm.ipynb" which you can find in the repository. this is the main file. 
 
-Open this repository in Google Colab by clicking this link: https://colab.research.google.com/drive/1vHInu8bcbVavBoCqC4RKEF6YoiN3xtNO?usp=sharing
+- Or open this repository in Google Colab by clicking this link: https://colab.research.google.com/drive/1vHInu8bcbVavBoCqC4RKEF6YoiN3xtNO?usp=sharing
+
+- run the code block under the label "installation of libraries" and then run the main code under the label "main code".
 
 Upload Audio Files:
 
 You'll be prompted to upload an audio file (Kannada or English).
 Audio files will be processed for searching for the dataset. the path to dataset (locally uploaded in github) will be in the main code.
+path to dataset is already in the code. so directly run it. 
 
 Transcription and Matching:
 
