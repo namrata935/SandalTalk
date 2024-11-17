@@ -28,8 +28,7 @@ pydub
 Running the Project
 Open the Notebook:
 
-Open this repository in Google Colab by clicking this button: [
-](colab link here).
+Open this repository in Google Colab by clicking this link: https://colab.research.google.com/drive/1vHInu8bcbVavBoCqC4RKEF6YoiN3xtNO?usp=sharing
 
 Upload Audio Files:
 
@@ -45,12 +44,6 @@ Refined Output:
 
 Both Kannada and English transcriptions will be refined using a T5 model.
 The refined answers will be displayed as output when the code is run. 
-
-Example Usage
-python
-Copy code
-# Run the following command to transcribe an audio file
-python audio_transcription.py
 
 Note:
 If your audio is in another format, it will automatically be converted using FFmpeg.
