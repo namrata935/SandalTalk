@@ -54,3 +54,5 @@ python audio_transcription.py
 
 Note:
 If your audio is in another format, it will automatically be converted using FFmpeg.
+
+Please view the screenshots uploaded in the repository (includes examples of working of the model with kannada audio upload and english audio upload)
